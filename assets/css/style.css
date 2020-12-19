@@ -22,6 +22,10 @@
     padding: 10px 20px;
 }
 
+body {
+    background-color: #eaeaea;
+}
+
 /* Header Styles */
 
 header {
@@ -32,10 +36,21 @@ header {
     position: sticky;
     position: -webkit-sticky;
     top: 0;
+    padding: 20px;
+    z-index: 9999;
+}
+
+
+header nav {
+    margin: 7px 0px;
 }
 
 header h1 {
     color: var(--color1);
+    background: var(--color3);
+    padding: 10px 15px 10px 100px;
+    margin: 0;
+    border: 0;
 }
 
 header nav ul {
@@ -47,12 +62,20 @@ header nav ul {
     padding: 10px 10px 0 0;
 }
 
+header nav ul li {
+    padding: 0 40px;
+    font-size: 20px;
+}
+
 header nav ul li a {
     color: var(--color1);
     text-decoration: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-items: space-between;
+}
+
+header nav ul li a:hover {
+    color: var(--color3);
+    text-shadow: 2px 2px 4px var(--color1);
+    text-decoration: underline var(--color1);
 }
 
 /* Hero Styles */
@@ -66,9 +89,10 @@ header nav ul li a {
 }
 
 .hero h1 {
-    color: white;
+    color: #eaeaea;
     font-size: 45px;
-    text-shadow: 2px 3px var(--color2);
+    text-shadow: 2px 3px var(--color1);
+    font-family: cursive;
 }
 
 /* About ME Styles */
@@ -112,4 +136,17 @@ header nav ul li a {
     flex-wrap: wrap;
     align-items: flex-start; 
     padding: 50px 0;
+}
+
+.info ul li {
+    list-style: none;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.info ul li a {
+    text-decoration: none;
+    font-size: 22px;
 }
