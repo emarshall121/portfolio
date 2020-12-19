@@ -33,9 +33,6 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
     padding: 20px;
     z-index: 9999;
 }
@@ -123,6 +120,31 @@ header nav ul li a:hover {
     align-items: center;
 }
 
+.info p a {
+    color: var(--color1);
+}
+
+.info p a:hover {
+    color: var(--color2);
+    font-size: 22px;
+}
+
+.info p a:visited {
+    color: var(--color4);
+}
+
+.about-me .info {
+    display: flex;
+    justify-content: right;
+    
+}
+
+.my-photo {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+}
+
 /* My Work Styles */
 
 .my-work {
@@ -155,7 +177,6 @@ header nav ul li a:hover {
     border: var(--color3);
     border-style: solid;
     border-width: 5px;
-
 }
 
 .item-1 {
@@ -186,4 +207,12 @@ header nav ul li a:hover {
 .info ul li a {
     text-decoration: none;
     font-size: 22px;
+    color: var(--color1)
+}
+
+.info ul li a:hover {
+    text-decoration: none;
+    font-size: 27px;
+    color: var(--color2);
+    text-shadow: 1px 1px var(--color1);
 }
