@@ -87,7 +87,7 @@ header nav ul li a:hover {
 
 .hero h1 {
     color: var(--color4);
-    font-size: 45px;
+    font-size: 40px;
     text-shadow: 1px 2px 4px var(--color1);
     font-family: cursive;
     background: var(--color3);
@@ -110,7 +110,6 @@ header nav ul li a:hover {
     width: 25%;
     text-align: right;
     font-size: 30px;
-    border-right: 4px solid var(--color4);
 }
 
 .info {
@@ -118,6 +117,8 @@ header nav ul li a:hover {
     text-align: left;
     font-size: 20px;
     align-items: center;
+    border-left: 4px solid var(--color4);
+    padding-left: 40px;
 }
 
 .info p a {
@@ -193,11 +194,12 @@ header nav ul li a:hover {
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center; 
+    margin: 50px o;
 }
 
 .contact-me .info ul {
     list-style: none;
-    padding: 0 20px;
+    padding: 50px 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -216,3 +218,54 @@ header nav ul li a:hover {
     color: var(--color2);
     text-shadow: 1px 1px var(--color1);
 }
+
+/* Media Queries to add website responsiveness */
+
+/* Media Query for smaller desktop screens */
+@media screen and (max-width: 980px) {
+    header {
+        justify-content: center;
+        padding: 0;
+    }
+
+    header nav ul {
+        justify-content: center;
+    }
+
+    header nav ul li a {
+        font-size: 18px;
+    }
+
+    .hero h1 {
+     font-size: 25px;   
+    }
+
+  }
+  
+  /* Media Query for Tablets and smaller */
+  @media screen and (max-width: 768px) {
+    .about-me {
+        padding: 15px;
+    }
+
+    .info h1 {
+        flex: 1 100%;
+        text-align: center;
+    }
+
+    .info {
+        flex: 2 100%;
+        border-left: none;
+        border-top: 4px solid var(--color4);
+        text-align: center;
+    }
+
+    .info ul li {
+        justify-content: center;
+        padding: 0;
+    }
+
+    .contact-me .info ul {
+        display: block;
+    }
+  }
