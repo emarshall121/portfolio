@@ -8,6 +8,7 @@ This challenge required me to create a web application from scratch which could 
 <a href="https://user-images.githubusercontent.com/72776042/102717603-a8418980-42a0-11eb-926f-0fa2e18bd3a0.png">Screenshot #1 - Application Main Page</a><br>
 <a href="https://user-images.githubusercontent.com/72776042/102717662-f48cc980-42a0-11eb-8af6-0e8df5752140.png">Screenshot #2 - Application Main Page</a>
 
-<a href="https://emarshall121.github.io/portfolio/">Deployed Application</a>
 
+<strong>Links</strong><br>
+<a href="https://emarshall121.github.io/portfolio/">Deployed Application</a><br>
 <a href="https://github.com/emarshall121/portfolio">Portfolio Github Repository</a>
