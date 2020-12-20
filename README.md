@@ -9,4 +9,4 @@ This challenge required me to create a web application from scratch which could 
 <strong>Deployed Application</strong>
 
 <strong>Github Repository</strong>
-<a href="https://github.com/emarshall121/portfolio">
+<a href="https://github.com/emarshall121/portfolio">Portfolio Github Repositor</a>
